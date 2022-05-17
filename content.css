@@ -51,6 +51,7 @@
 .chat-list {
     padding: 1px 0px !important;
     margin-right: -8px !important;
+    --color-background: #17212b !important;
 }
 
 .ListItem.chat-item-clickable .ListItem-button {
@@ -100,6 +101,10 @@
     border-radius: 4px !important;
     display: flex !important;
     flex-direction: column !important;
+}
+
+.SymbolMenu .opacity-transition:not(.shown) {
+    display: none !important;
 }
 
 .Menu .bubble {
@@ -238,7 +243,7 @@
     padding: 16px !important;
 }
 
-.Spinner > div {
+.Spinner>div {
     background-image: var(--spinner-white-data) !important;
 }
 
@@ -250,4 +255,10 @@
 
 #LeftColumn-main .pull-down {
     transform: none !important;
+}
+
+.composer-tooltip {
+    width: calc(100% - 16px) !important;
+    left: 8px !important;
+    right: 8px !important;
 }
