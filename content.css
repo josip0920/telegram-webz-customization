@@ -213,3 +213,41 @@
 .Composer.hover-disabled {
     display: none !important;
 }
+
+.connection-state-wrapper {
+    position: fixed !important;
+    top: 0px !important;
+    left: 0px !important;
+    width: 100% !important;
+    height: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    backdrop-filter: blur(3px) !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    z-index: 10040 !important;
+}
+
+#ConnectionState {
+    margin: 0px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 6px !important;
+    box-shadow: 0px 0px 5px 0px #dadce045 !important;
+    padding: 16px !important;
+}
+
+.Spinner > div {
+    background-image: var(--spinner-white-data) !important;
+}
+
+#ConnectionState .state-text {
+    margin: 0px !important;
+    margin-top: 18px !important;
+    color: white !important;
+}
+
+#LeftColumn-main .pull-down {
+    transform: none !important;
+}
