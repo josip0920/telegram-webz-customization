@@ -15,7 +15,7 @@
     padding: 4px !important;
     background-clip: content-box !important;
     background: none !important;
-    width: 32px !important;
+    width: 40px !important;
     position: relative !important;
 }
 .ListItem.chat-item-clickable .Avatar.no-photo {
@@ -40,6 +40,16 @@
 
 .ListItem.chat-item-clickable .Avatar.online::after{
     background-color: #0ac630 !important;
+}
+
+.ListItem.chat-item-clickable.group .Avatar::after{
+    background-image: url("https://www.svgrepo.com/show/152056/group.svg");
+    background-size: contain !important;
+    background-position: center !important;
+    background-color: transparent !important;
+    border: none !important;
+    width: 20px;
+    height: 20px;
 }
 
 .ListItem.chat-item-clickable .Avatar img{
