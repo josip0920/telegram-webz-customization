@@ -10,7 +10,7 @@
     --color-borders: #17212b !important;
 }
 
-.ListItem.chat-item-clickable .Avatar {
+.chat-list .ListItem.chat-item-clickable .Avatar {
     display: flex !important;
     padding: 4px !important;
     background-clip: content-box !important;
@@ -18,11 +18,11 @@
     width: 40px !important;
     position: relative !important;
 }
-.ListItem.chat-item-clickable .Avatar.no-photo {
+.chat-list .ListItem.chat-item-clickable .Avatar.no-photo {
     color: var(--background-color) !important;
 }
 
-.ListItem.chat-item-clickable .Avatar::after{
+.chat-list .ListItem.chat-item-clickable .Avatar::after{
     content: "";
     display: block;
     position: absolute;
@@ -38,11 +38,11 @@
     transform: translate(-50%, -50%) !important;
 } 
 
-.ListItem.chat-item-clickable .Avatar.online::after{
+.chat-list .ListItem.chat-item-clickable .Avatar.online::after{
     background-color: #0ac630 !important;
 }
 
-.ListItem.chat-item-clickable.group .Avatar::after{
+.chat-list .ListItem.chat-item-clickable.group .Avatar::after{
     background-image: url("https://www.svgrepo.com/show/152056/group.svg");
     background-size: contain !important;
     background-position: center !important;
@@ -52,7 +52,7 @@
     height: 20px;
 }
 
-.ListItem.chat-item-clickable .Avatar img{
+.chat-list .ListItem.chat-item-clickable .Avatar img{
     display: none !important;
 }
 
