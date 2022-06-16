@@ -68,6 +68,10 @@
     display: block !important;
 }
 
+.MiddleHeader .Avatar {
+    display: none !important;
+}
+
 .message-content.media .media-inner.interactive,
 .WebPage .media-inner.interactive {
     display: flex !important;
