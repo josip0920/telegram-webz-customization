@@ -1,4 +1,4 @@
-.theme-dark :root {
+:root {
     --border-radius-messages: 0.425rem !important;
     --color-chat-active: #2b5378 !important;
     --color-chat-hover: #202b36 !important;
@@ -10,7 +10,7 @@
     --color-borders: #17212b !important;
 }
 
-.theme-dark .chat-list .ListItem.chat-item-clickable .Avatar {
+.chat-list .ListItem.chat-item-clickable .Avatar {
     display: flex !important;
     padding: 4px !important;
     background-clip: content-box !important;
@@ -18,12 +18,11 @@
     width: 40px !important;
     position: relative !important;
 }
-
-.theme-dark .chat-list .ListItem.chat-item-clickable .Avatar.no-photo {
+.chat-list .ListItem.chat-item-clickable .Avatar.no-photo {
     color: var(--background-color) !important;
 }
 
-.theme-dark .chat-list .ListItem.chat-item-clickable .Avatar::after {
+.chat-list .ListItem.chat-item-clickable .Avatar::after{
     content: "";
     display: block;
     position: absolute;
@@ -37,13 +36,13 @@
     top: 50% !important;
     left: 50% !important;
     transform: translate(-50%, -50%) !important;
-}
+} 
 
-.theme-dark .chat-list .ListItem.chat-item-clickable .Avatar.online::after {
+.chat-list .ListItem.chat-item-clickable .Avatar.online::after{
     background-color: #0ac630 !important;
 }
 
-.theme-dark .chat-list .ListItem.chat-item-clickable.group .Avatar::after {
+.chat-list .ListItem.chat-item-clickable.group .Avatar::after{
     background-image: url("https://www.svgrepo.com/show/152056/group.svg");
     background-size: contain !important;
     background-position: center !important;
@@ -53,45 +52,45 @@
     height: 20px;
 }
 
-.theme-dark .chat-list .ListItem.chat-item-clickable .Avatar img {
+.chat-list .ListItem.chat-item-clickable .Avatar img{
     display: none !important;
 }
 
-.theme-dark .Avatar img:not(.emoji) {
+.Avatar img:not(.emoji) {
     display: block !important;
 }
 
-.theme-dark #MediaViewer .media-viewer-content>img {
+#MediaViewer .media-viewer-content>img {
     display: block !important;
 }
 
-.theme-dark .ProfilePhoto {
+.ProfilePhoto {
     display: block !important;
 }
 
-.theme-dark .MiddleHeader .Avatar {
+.MiddleHeader .Avatar {
     display: none !important;
 }
 
-.theme-dark .message-content.media .media-inner.interactive,
+.message-content.media .media-inner.interactive,
 .WebPage .media-inner.interactive {
     display: flex !important;
 }
 
-.theme-dark .StickerPicker-main {
+.StickerPicker-main {
     display: block !important;
 }
 
-.theme-dark .message-content.custom-shape .media-inner .full-media {
+.message-content.custom-shape .media-inner .full-media {
     visibility: visible !important;
     content: unset !important;
 }
 
-.theme-dark .StickerSetModal .stickers {
+.StickerSetModal .stickers {
     display: block !important;
 }
 
-.theme-dark 
+
 /* Chat */
 .chat-list {
     padding: 1px 0px !important;
@@ -99,172 +98,172 @@
     --color-background: #17212b !important;
 }
 
-.theme-dark .ListItem.chat-item-clickable .ListItem-button {
+.ListItem.chat-item-clickable .ListItem-button {
     border-radius: 0px !important;
 }
 
-.theme-dark .VideoPlayer {
+.VideoPlayer {
     display: block !important;
 }
 
-.theme-dark .messages-container {
+.messages-container {
     width: 100% !important;
     max-width: unset !important;
     padding: 16px 32px !important;
 }
 
-.theme-dark .middle-column-footer {
+.middle-column-footer {
     width: 100% !important;
     max-width: unset !important;
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
 
-.theme-dark .MessageList {
+.MessageList {
     margin-bottom: 0px !important;
 }
 
-.theme-dark .middle-column-footer>div {
+.middle-column-footer>div {
     margin-bottom: 0px !important;
 }
 
-.theme-dark .middle-column-footer>div>button {
+.middle-column-footer>div>button {
     display: none !important;
 }
 
-.theme-dark .middle-column-footer::before {
+.middle-column-footer::before {
     content: none !important;
 }
 
-.theme-dark #message-compose {
+#message-compose {
     border-radius: 0px !important;
     max-width: 100% !important;
     background-color: #17212b !important;
 }
 
-.theme-dark .SymbolMenu .bubble.menu-container {
+.SymbolMenu .bubble.menu-container {
     border-radius: 4px !important;
     display: flex !important;
     flex-direction: column !important;
 }
 
-.theme-dark .SymbolMenu .opacity-transition:not(.shown) {
+.SymbolMenu .opacity-transition:not(.shown) {
     display: none !important;
 }
 
-.theme-dark .Menu .bubble {
+.Menu .bubble {
     --offset-x: 8px !important;
 }
 
-.theme-dark .AttachMenu .bubble.menu-container {
+.AttachMenu .bubble.menu-container {
     border-radius: 4px !important;
 }
 
-.theme-dark .SymbolMenu-footer {
+.SymbolMenu-footer {
     order: 1;
     border-bottom: 1px solid var(--color-borders) !important;
 }
 
-.theme-dark .SymbolMenu-main {
+.SymbolMenu-main {
     order: 2;
 }
 
-.theme-dark .EmojiPicker {
+.EmojiPicker {
     display: flex !important;
     flex-direction: column !important;
 }
 
-.theme-dark .EmojiPicker-header {
+.EmojiPicker-header {
     order: 2 !important;
     border-top: 1px solid var(--color-borders) !important;
     border-bottom: none !important;
 }
 
-.theme-dark .StickerPicker {
+.StickerPicker {
     display: flex !important;
     flex-direction: column !important;
 }
 
-.theme-dark .StickerPicker-header {
+.StickerPicker-header {
     order: 2 !important;
     border-top: 1px solid var(--color-borders) !important;
     border-bottom: none !important;
 }
 
-.theme-dark #middle-column-bg::before,
-.theme-dark #middle-column-bg::after {
+#middle-column-bg::before,
+#middle-column-bg::after {
     background: url("https://cdn.ibluday.com/pattern-5.svg") !important;
     background-color: #0e1621 !important;
 }
 
-.theme-dark #MiddleColumn {
+#MiddleColumn {
     border: none !important;
 }
 
-.theme-dark .Chat {
+.Chat {
     --background-color: #17212b !important;
 }
 
-.theme-dark #LeftColumn {
+#LeftColumn {
     box-shadow: #131c24 0px 0px 1px 1px !important;
     z-index: 1004;
 }
 
-.theme-dark .SearchInput {
+.SearchInput {
     border-radius: 6px !important;
 }
 
-.theme-dark .SearchInput>input {
+.SearchInput>input {
     height: 36px !important;
 }
 
-.theme-dark .SearchInput>i {
+.SearchInput>i {
     top: 50% !important;
     transform: translateY(-50%) !important;
 }
 
-.theme-dark .MiddleHeader {
+.MiddleHeader {
     background: #17212b !important;
 }
 
-.theme-dark .TabList {
+.TabList {
     background: #17212b !important;
 }
 
-.theme-dark #LeftMainHeader {
+#LeftMainHeader {
     background: #17212b !important;
 }
 
-.theme-dark .Message svg path {
+.Message svg path {
     fill: #182533 !important;
 }
 
-.theme-dark .Message.own svg path {
+.Message.own svg path {
     fill: #2b5378 !important;
 }
 
-.theme-dark .MessageOutgoingStatus i {
+.MessageOutgoingStatus i {
     background-color: transparent !important;
 }
 
-.theme-dark .Message {
+.Message {
     --background-color: #182533 !important;
 }
 
-.theme-dark .Message.own {
+.Message.own {
     --background-color: #2b5378 !important;
 }
 
-.theme-dark .HeaderPinnedMessage-wrapper {
+.HeaderPinnedMessage-wrapper {
     border-radius: 6px !important;
     padding: 4px !important;
 }
 
-.theme-dark .Composer.hover-disabled {
+.Composer.hover-disabled {
     display: none !important;
 }
 
-.theme-dark .connection-state-wrapper {
+.connection-state-wrapper {
     position: fixed !important;
     bottom: 24px !important;
     top: unset !important;
@@ -278,7 +277,7 @@
     z-index: 10040 !important;
 }
 
-.theme-dark #ConnectionState {
+#ConnectionState {
     width: 100% !important;
     height: 100% !important;
     padding: 0px !important;
@@ -292,289 +291,22 @@
     box-shadow: 0px 0px 5px 0px #dadce045 !important;
 }
 
-.theme-dark .Spinner>div {
+.Spinner>div {
     background-image: var(--spinner-white-data) !important;
 }
 
-.theme-dark #ConnectionState .state-text {
+#ConnectionState .state-text {
     margin: 0px !important;
     display: none !important;
     margin-top: 18px !important;
     color: white !important;
 }
 
-.theme-dark #LeftColumn-main .pull-down {
+#LeftColumn-main .pull-down {
     transform: none !important;
 }
 
-.theme-dark .composer-tooltip {
-    width: calc(100% - 16px) !important;
-    left: 8px !important;
-    right: 8px !important;
-}
-
-
-
-/** LIGHT MODE **/
-
-.theme-light .chat-list .ListItem.chat-item-clickable .Avatar {
-    display: flex !important;
-    padding: 4px !important;
-    background-clip: content-box !important;
-    background: none !important;
-    width: 40px !important;
-    position: relative !important;
-}
-
-.theme-light .chat-list .ListItem.chat-item-clickable .Avatar.no-photo {
-    color: var(--background-color) !important;
-}
-
-.theme-light .chat-list .ListItem.chat-item-clickable .Avatar::after {
-    content: "";
-    display: block;
-    position: absolute;
-    bottom: 0.05rem;
-    right: 0.05rem;
-    width: calc(0.875rem - 2px);
-    height: calc(0.875rem - 2px);
-    border-radius: 50%;
-    border: none;
-    background-color: gray;
-    top: 50% !important;
-    left: 50% !important;
-    transform: translate(-50%, -50%) !important;
-}
-
-.theme-light .chat-list .ListItem.chat-item-clickable .Avatar.online::after {
-    background-color: #0ac630 !important;
-}
-
-.theme-light .chat-list .ListItem.chat-item-clickable.group .Avatar::after {
-    background-image: url("https://www.svgrepo.com/show/152056/group.svg");
-    background-size: contain !important;
-    background-position: center !important;
-    background-color: transparent !important;
-    border: none !important;
-    width: 20px;
-    height: 20px;
-}
-
-.theme-light .chat-list .ListItem.chat-item-clickable .Avatar img {
-    display: none !important;
-}
-
-.theme-light .Avatar img:not(.emoji) {
-    display: block !important;
-}
-
-.theme-light #MediaViewer .media-viewer-content>img {
-    display: block !important;
-}
-
-.theme-light .ProfilePhoto {
-    display: block !important;
-}
-
-.theme-light .MiddleHeader .Avatar {
-    display: none !important;
-}
-
-.theme-light .message-content.media .media-inner.interactive,
-.WebPage .media-inner.interactive {
-    display: flex !important;
-}
-
-.theme-light .StickerPicker-main {
-    display: block !important;
-}
-
-.theme-light .message-content.custom-shape .media-inner .full-media {
-    visibility: visible !important;
-    content: unset !important;
-}
-
-.theme-light .StickerSetModal .stickers {
-    display: block !important;
-}
-
-.theme-light 
-/* Chat */
-.chat-list {
-    padding: 1px 0px !important;
-    margin-right: -8px !important;
-}
-
-.theme-light .ListItem.chat-item-clickable .ListItem-button {
-    border-radius: 0px !important;
-}
-
-.theme-light .VideoPlayer {
-    display: block !important;
-}
-
-.theme-light .messages-container {
-    width: 100% !important;
-    max-width: unset !important;
-    padding: 16px 32px !important;
-}
-
-.theme-light .middle-column-footer {
-    width: 100% !important;
-    max-width: unset !important;
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-}
-
-.theme-light .MessageList {
-    margin-bottom: 0px !important;
-}
-
-.theme-light .middle-column-footer>div {
-    margin-bottom: 0px !important;
-}
-
-.theme-light .middle-column-footer>div>button {
-    display: none !important;
-}
-
-.theme-light .middle-column-footer::before {
-    content: none !important;
-}
-
-.theme-light #message-compose {
-    border-radius: 0px !important;
-    max-width: 100% !important;
-}
-
-.theme-light .SymbolMenu .bubble.menu-container {
-    border-radius: 4px !important;
-    display: flex !important;
-    flex-direction: column !important;
-}
-
-.theme-light .SymbolMenu .opacity-transition:not(.shown) {
-    display: none !important;
-}
-
-.theme-light .Menu .bubble {
-    --offset-x: 8px !important;
-}
-
-.theme-light .AttachMenu .bubble.menu-container {
-    border-radius: 4px !important;
-}
-
-.theme-light .SymbolMenu-footer {
-    order: 1;
-    border-bottom: 1px solid var(--color-borders) !important;
-}
-
-.theme-light .SymbolMenu-main {
-    order: 2;
-}
-
-.theme-light .EmojiPicker {
-    display: flex !important;
-    flex-direction: column !important;
-}
-
-.theme-light .EmojiPicker-header {
-    order: 2 !important;
-    border-top: 1px solid var(--color-borders) !important;
-    border-bottom: none !important;
-}
-
-.theme-light .StickerPicker {
-    display: flex !important;
-    flex-direction: column !important;
-}
-
-.theme-light .StickerPicker-header {
-    order: 2 !important;
-    border-top: 1px solid var(--color-borders) !important;
-    border-bottom: none !important;
-}
-
-.theme-light #MiddleColumn {
-    border: none !important;
-}
-
-.theme-light #LeftColumn {
-    box-shadow: #d6dde2 0px 0px 1px 1px !important;
-    z-index: 1004;
-}
-
-.theme-light .SearchInput {
-    border-radius: 6px !important;
-}
-
-.theme-light .SearchInput>input {
-    height: 36px !important;
-}
-
-.theme-light .SearchInput>i {
-    top: 50% !important;
-    transform: translateY(-50%) !important;
-}
-
-.theme-light .MessageOutgoingStatus i {
-    background-color: transparent !important;
-}
-
-.theme-light .HeaderPinnedMessage-wrapper {
-    border-radius: 6px !important;
-    padding: 4px !important;
-}
-
-.theme-light .Composer.hover-disabled {
-    display: none !important;
-}
-
-.theme-light .connection-state-wrapper {
-    position: fixed !important;
-    bottom: 24px !important;
-    top: unset !important;
-    left: 24px !important;
-    width: 48px !important;
-    height: 48px !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    background-color: transparent !important;
-    z-index: 10040 !important;
-}
-
-.theme-light #ConnectionState {
-    width: 100% !important;
-    height: 100% !important;
-    padding: 0px !important;
-    border-radius: 6px !important;
-    margin: 0px !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    background: var(--color-chat-active) !important;
-    border-radius: 6px !important;
-    box-shadow: 0px 0px 5px 0px #dadce045 !important;
-}
-
-.theme-light .Spinner>div {
-    background-image: var(--spinner-white-data) !important;
-}
-
-.theme-light #ConnectionState .state-text {
-    margin: 0px !important;
-    display: none !important;
-    margin-top: 18px !important;
-    color: white !important;
-}
-
-.theme-light #LeftColumn-main .pull-down {
-    transform: none !important;
-}
-
-.theme-light .composer-tooltip {
+.composer-tooltip {
     width: calc(100% - 16px) !important;
     left: 8px !important;
     right: 8px !important;
