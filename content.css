@@ -1,4 +1,4 @@
-:root {
+.theme-dark :root {
     --border-radius-messages: 0.425rem !important;
     --color-chat-active: #2b5378 !important;
     --color-chat-hover: #202b36 !important;
@@ -10,7 +10,11 @@
     --color-borders: #17212b !important;
 }
 
-.chat-list .ListItem.chat-item-clickable .Avatar {
+.theme-light :root {
+    --border-radius-messages: 0.425rem !important;
+}
+
+.theme-dark .chat-list .ListItem.chat-item-clickable .Avatar {
     display: flex !important;
     padding: 4px !important;
     background-clip: content-box !important;
@@ -18,11 +22,11 @@
     width: 40px !important;
     position: relative !important;
 }
-.chat-list .ListItem.chat-item-clickable .Avatar.no-photo {
+.theme-dark .chat-list .ListItem.chat-item-clickable .Avatar.no-photo {
     color: var(--background-color) !important;
 }
 
-.chat-list .ListItem.chat-item-clickable .Avatar::after{
+.theme-dark .chat-list .ListItem.chat-item-clickable .Avatar::after{
     content: "";
     display: block;
     position: absolute;
@@ -38,11 +42,11 @@
     transform: translate(-50%, -50%) !important;
 } 
 
-.chat-list .ListItem.chat-item-clickable .Avatar.online::after{
+.theme-dark .chat-list .ListItem.chat-item-clickable .Avatar.online::after{
     background-color: #0ac630 !important;
 }
 
-.chat-list .ListItem.chat-item-clickable.group .Avatar::after{
+.theme-dark .chat-list .ListItem.chat-item-clickable.group .Avatar::after{
     background-image: url("https://www.svgrepo.com/show/152056/group.svg");
     background-size: contain !important;
     background-position: center !important;
@@ -69,7 +73,7 @@
 }
 
 .MiddleHeader .Avatar {
-    display: none !important;
+    display: block !important;
 }
 
 .message-content.media .media-inner.interactive,
@@ -92,10 +96,15 @@
 
 
 /* Chat */
-.chat-list {
+.theme-dark .chat-list {
     padding: 1px 0px !important;
     margin-right: -8px !important;
     --color-background: #17212b !important;
+}
+
+.theme-light .chat-list {
+    padding: 1px 0px !important;
+    margin-right: -8px !important;
 }
 
 .ListItem.chat-item-clickable .ListItem-button {
@@ -135,10 +144,15 @@
     content: none !important;
 }
 
-#message-compose {
+.theme-dark #message-compose {
     border-radius: 0px !important;
     max-width: 100% !important;
     background-color: #17212b !important;
+}
+
+.theme-light #message-compose {
+    border-radius: 0px !important;
+    max-width: 100% !important;
 }
 
 .SymbolMenu .bubble.menu-container {
@@ -190,21 +204,28 @@
     border-bottom: none !important;
 }
 
-#middle-column-bg::before,
-#middle-column-bg::after {
+.theme-dark  #middle-column-bg::before,
+.theme-dark  #middle-column-bg::after {
     background: url("https://blog.1a23.com/wp-content/uploads/sites/2/2020/02/pattern-10.svg") !important;
     background-color: #0e1621 !important;
 }
+
+/* .theme-light  #middle-column-bg::before,
+.theme-light  #middle-column-bg::after {
+    background: url("https://blog.1a23.com/wp-content/uploads/sites/2/2020/02/pattern-10.svg") !important;
+    opacity: .2;
+    background-color: #5288c1;
+} */
 
 #MiddleColumn {
     border: none !important;
 }
 
-.Chat {
+.theme-dark .Chat {
     --background-color: #17212b !important;
 }
 
-#LeftColumn {
+.theme-dark #LeftColumn {
     box-shadow: #131c24 0px 0px 1px 1px !important;
     z-index: 1004;
 }
@@ -222,48 +243,48 @@
     transform: translateY(-50%) !important;
 }
 
-.MiddleHeader {
+.theme-dark .MiddleHeader {
     background: #17212b !important;
 }
 
-.TabList {
+.theme-dark .TabList {
     background: #17212b !important;
 }
 
-#LeftMainHeader {
+.theme-dark #LeftMainHeader {
     background: #17212b !important;
 }
 
-.Message svg path {
+.theme-dark .Message svg path {
     fill: #182533 !important;
 }
 
-.Message.own svg path {
+.theme-dark .Message.own svg path {
     fill: #2b5378 !important;
 }
 
-.MessageOutgoingStatus i {
+.theme-dark .MessageOutgoingStatus i {
     background-color: transparent !important;
 }
 
-.Message {
+.theme-dark .Message {
     --background-color: #182533 !important;
 }
 
-.Message.own {
+.theme-dark .Message.own {
     --background-color: #2b5378 !important;
 }
 
-.HeaderPinnedMessage-wrapper {
+.theme-dark .HeaderPinnedMessage-wrapper {
     border-radius: 6px !important;
     padding: 4px !important;
 }
 
-.Composer.hover-disabled {
+.theme-dark .Composer.hover-disabled {
     display: none !important;
 }
 
-.connection-state-wrapper {
+.theme-dark .connection-state-wrapper {
     position: fixed !important;
     bottom: 24px !important;
     top: unset !important;
@@ -277,7 +298,7 @@
     z-index: 10040 !important;
 }
 
-#ConnectionState {
+.theme-dark #ConnectionState {
     width: 100% !important;
     height: 100% !important;
     padding: 0px !important;
@@ -291,22 +312,22 @@
     box-shadow: 0px 0px 5px 0px #dadce045 !important;
 }
 
-.Spinner>div {
+.theme-dark .Spinner>div {
     background-image: var(--spinner-white-data) !important;
 }
 
-#ConnectionState .state-text {
+.theme-dark #ConnectionState .state-text {
     margin: 0px !important;
     display: none !important;
     margin-top: 18px !important;
     color: white !important;
 }
 
-#LeftColumn-main .pull-down {
+.theme-dark #LeftColumn-main .pull-down {
     transform: none !important;
 }
 
-.composer-tooltip {
+.theme-dark .composer-tooltip {
     width: calc(100% - 16px) !important;
     left: 8px !important;
     right: 8px !important;
