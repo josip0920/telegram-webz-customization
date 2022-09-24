@@ -223,7 +223,7 @@
 
 #MiddleColumn {
     border: none !important;
-    z-index: 150000 !important;
+    z-index: 1400 !important;
 }
 
 .theme-dark .Chat {
@@ -349,4 +349,8 @@
     width: calc(100% - 16px) !important;
     left: 8px !important;
     right: 8px !important;
+}
+
+.Modal {
+    z-index: 1500 !important;
 }
