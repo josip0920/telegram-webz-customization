@@ -223,6 +223,7 @@
 
 #MiddleColumn {
     border: none !important;
+    z-index: 150000 !important;
 }
 
 .theme-dark .Chat {
