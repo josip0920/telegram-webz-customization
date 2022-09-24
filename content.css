@@ -14,7 +14,7 @@
     --border-radius-messages: 0.425rem !important;
 }
 
-.theme-dark .chat-list .ListItem.chat-item-clickable .Avatar {
+.chat-list .ListItem.chat-item-clickable .Avatar {
     display: flex !important;
     padding: 4px !important;
     background-clip: content-box !important;
@@ -22,31 +22,32 @@
     width: 40px !important;
     position: relative !important;
 }
-.theme-dark .chat-list .ListItem.chat-item-clickable .Avatar.no-photo {
+.chat-list .ListItem.chat-item-clickable .Avatar.no-photo {
     color: var(--background-color) !important;
 }
 
-.theme-dark .chat-list .ListItem.chat-item-clickable .Avatar::after{
+.chat-list .ListItem.chat-item-clickable .Avatar::after{
     content: "";
     display: block;
     position: absolute;
     bottom: 0.05rem;
     right: 0.05rem;
-    width: 0.875rem;
-    height: 0.875rem;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
-    border: 2px solid var(--color-chat-active);
+    border: none !important;
     background-color: gray;
     top: 50% !important;
     left: 50% !important;
     transform: translate(-50%, -50%) !important;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, .5);
 } 
 
-.theme-dark .chat-list .ListItem.chat-item-clickable .Avatar.online::after{
+.chat-list .ListItem.chat-item-clickable .Avatar.online::after{
     background-color: #0ac630 !important;
 }
 
-.theme-dark .chat-list .ListItem.chat-item-clickable.group .Avatar::after{
+.chat-list .ListItem.chat-item-clickable.group .Avatar::after{
     background-image: url("https://www.svgrepo.com/show/152056/group.svg");
     background-size: contain !important;
     background-position: center !important;
@@ -54,6 +55,7 @@
     border: none !important;
     width: 20px;
     height: 20px;
+    box-shadow: none !important;
 }
 
 .chat-list .ListItem.chat-item-clickable .Avatar img{
@@ -73,7 +75,9 @@
 }
 
 .MiddleHeader .Avatar {
-    display: block !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
 }
 
 .message-content.media .media-inner.interactive,
@@ -229,6 +233,19 @@
     box-shadow: #131c24 0px 0px 1px 1px !important;
     z-index: 1004;
 }
+.theme-light #LeftColumn {
+    box-shadow: 0px 0px 8px 2px rgb(0 0 0 / 15%) !important;
+    z-index: 1004;
+}
+
+.theme-light .LeftMainHeader {
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+    height: 65px;
+}
+
+.theme-light #LeftMainHeader {
+    height: 100%;
+}
 
 .SearchInput {
     border-radius: 6px !important;
@@ -275,12 +292,12 @@
     --background-color: #2b5378 !important;
 }
 
-.theme-dark .HeaderPinnedMessage-wrapper {
+.HeaderPinnedMessage-wrapper {
     border-radius: 6px !important;
     padding: 4px !important;
 }
 
-.theme-dark .Composer.hover-disabled {
+.Composer.hover-disabled {
     display: none !important;
 }
 
