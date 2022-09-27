@@ -14,8 +14,8 @@
   --border-radius-messages: 0.425rem !important;
 }
 
-.RightColumn-wrapper {
-  z-index: 200000;
+#RightColumn-wrapper {
+  z-index: 200000 !important;
 }
 
 .chat-list .ListItem.chat-item-clickable .Avatar {
