@@ -18,6 +18,10 @@
   z-index: 200000 !important;
 }
 
+.ChatInfo .Avatar{
+  display: block !important;
+}
+
 .chat-list .ListItem.chat-item-clickable .Avatar {
   display: flex !important;
   padding: 4px !important;
