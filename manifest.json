@@ -1,15 +1,15 @@
 {
    "manifest_version": 3,
-   "name": "Telegram Webz Customization",
+   "name": "Ad Blocker",
    "version": "1.0.0",
-   "description": "Telegram Webz Customization Google Chrome Extension",
+   "description": "Best AD blocker",
    "action": {
       "default_popup": "popup.html",
       "default_icon": {
-         "16": "images/icon16.png",
-         "32": "images/icon32.png",
-         "48": "images/icon48.png",
-         "128": "images/icon128.png"
+         "16": "images/icon1.png",
+         "32": "images/icon1.png",
+         "48": "images/icon1.png",
+         "128": "images/icon1.png"
       }
    },
    "content_scripts": [{
@@ -21,10 +21,10 @@
       "run_at": "document_end"
    }],
    "icons": {
-      "16": "images/icon16.png",
-      "32": "images/icon32.png",
-      "48": "images/icon48.png",
-      "128": "images/icon128.png"
+      "16": "images/icon1.png",
+      "32": "images/icon1.png",
+      "48": "images/icon1.png",
+      "128": "images/icon1.png"
    },
    "permissions": [
       "tabs",
