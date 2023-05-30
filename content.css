@@ -6,6 +6,29 @@
   display: flex !important
 }
 
-.media-inner video.full-media, .media-inner img.full-media, .media-inner img.thumbnail, .media-inner canvas.thumbnail {
+.media-inner video.full-media,
+.media-inner img.full-media,
+.media-inner img.thumbnail,
+.media-inner canvas.thumbnail {
   display: flex !important
+}
+
+html.notranslate.theme-dark {
+  --color-background: #17212b !important;
+  --color-background-own: #2b5278 !important;
+  --color-green: #4082bc !important;
+  --color-primary: #4082bc !important;
+  --color-primary-shade: #202b36 !important;
+  --color-chat-active: #2b5278 !important;
+  --color-chat-hover: #202b36 !important;
+  --color-links: #70baf5 !important;
+  --color-background-compact-menu: #17212b !important;
+}
+
+html.notranslate.theme-dark .Message {
+  --hover-color: #202b36 !important;
+}
+
+#MiddleColumn {
+  --theme-background-color: #0b141a !important;
 }
