@@ -29,6 +29,11 @@ html.notranslate.theme-dark .Message {
   --hover-color: #202b36 !important;
 }
 
-#MiddleColumn {
+html.notranslate.theme-dark #MiddleColumn {
   --theme-background-color: #0b141a !important;
+}
+
+.Message.own {
+  --color-reaction: transparent !important;
+  --hover-color-reaction: #202b36 !important;
 }
